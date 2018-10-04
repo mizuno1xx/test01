@@ -17,11 +17,11 @@ public class TexttoSpeech
 		TextToSpeech synthesizer = new TextToSpeech();
 		synthesizer.setUsernameAndPassword("abbc7454-284d-4a75-8900-e308a18b731a", "0oCcxsqM5h7X");
 		
-		String translation = "of course. he is your fucking";
+		String translation = "ç°ì˙ÇÕó«Ç¢ìVãCÇ≈Ç∑ÇÀÅB";
 		
 		SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 			.text(translation)
-			.voice(SynthesizeOptions.Voice.EN_US_LISAVOICE)
+			.voice(SynthesizeOptions.Voice.JA_JP_EMIVOICE)
 			.accept(SynthesizeOptions.Accept.AUDIO_WAV)
 			.build();
 		InputStream in = synthesizer.synthesize(synthesizeOptions).execute();
