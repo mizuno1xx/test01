@@ -15,7 +15,7 @@ public class TexttoSpeech
 	public static void main(String[] args) 
 	{
 		TextToSpeech synthesizer = new TextToSpeech();
-		synthesizer.setUsernameAndPassword("abbc7454-284d-4a75-8900-e308a18b731a", "0oCcxsqM5h7X");
+		synthesizer.setUsernameAndPassword("1618101", "1618101");
 		
 		String translation = "¡“ú‚Í—Ç‚¢“V‹C‚Å‚·‚ËB";
 		
